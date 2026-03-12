@@ -1,4 +1,6 @@
-function Footer(){
+import { Link } from "react-router-dom";
+
+function Footer() {
 
 return(
 
@@ -30,10 +32,11 @@ Quick Links
 
 <div className="flex flex-col gap-2 text-gray-400">
 
-<a href="/">Home</a>
-<a href="/products">Products</a>
-<a href="/recipes">Recipes</a>
-<a href="/contact">Contact</a>
+<Link to="/">Home</Link>
+<Link to="/products">Products</Link>
+<Link to="/recipes">Recipes</Link>
+<Link to="/about">About</Link>
+<Link to="/contact">Contact</Link>
 
 </div>
 
